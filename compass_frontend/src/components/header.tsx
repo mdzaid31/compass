@@ -89,8 +89,14 @@ const Header = () => {
         <Link href="/players" className="flex gap-2 items-center">
           <Image src="/players.png" alt="Players Logo" width={48} height={48} />
         </Link>
+        <div className="flex gap-1">
+          <div className="text-black font-bold p-1">placeholder</div>
+          <div className="text-black font-bold rounded-md bg-gray-400 py-1 px-12">
+            22
+          </div>
+        </div>
 
-        <MbButton onClick={sendNear} label={"Send Near"} />
+        <MbButton onClick={sendNear} label={"+"} />
       </div>
       <div className="flex row gap-4">
         <MbButton onClick={buttonAction} label={buttonLabel} />
