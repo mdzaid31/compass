@@ -1,0 +1,6 @@
+{
+  "/twitch/page": "app/twitch/page.js",
+  "/page": "app/page.js",
+  "/bet/page": "app/bet/page.js",
+  "/players/page": "app/players/page.js"
+}
