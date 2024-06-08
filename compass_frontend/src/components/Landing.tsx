@@ -29,7 +29,7 @@ const LandingPage: React.FC = () => {
         style={{ marginBottom: "30px" }}
       >
         <img
-          src="compasslogo.png"
+          src="jungle_logo.png"
           alt="compass Logo"
           style={{
             height: "350px",

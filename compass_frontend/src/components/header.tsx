@@ -74,7 +74,7 @@ const Header = () => {
 
   return (
     <div className="flex justify-between items-center bg-white p-4 sticky top-0 border-b z-30">
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-4">
         <Link href="/" className="flex gap-2 items-center">
           <div className="text-black font-bold"> Compass</div>
         </Link>
@@ -91,12 +91,17 @@ const Header = () => {
         </Link>
         <div className="flex gap-1">
           <div className="text-black font-bold p-1">placeholder</div>
-          <div className="text-black font-bold rounded-md bg-gray-400 py-1 px-12">
-            22
+          <div
+            className="text-black font-bold rounded-md bg-gray-400 py-1 px-2 flex items-center"
+            style={{ textAlign: "left" }}
+          >
+            220000
           </div>
         </div>
 
-        <MbButton onClick={sendNear} label={"+"} />
+        <>
+          <MbButton btnType="primary" label="+" size="small" state="active" />
+        </>
       </div>
       <div className="flex row gap-4">
         <MbButton onClick={buttonAction} label={buttonLabel} />
