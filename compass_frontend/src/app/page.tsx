@@ -2,8 +2,8 @@ import LandingPage from "@/components/Landing";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Basemint - Where E-sports Live",
-  description: "Simple Marketplace",
+  title: "RagRats Compass Hackathon",
+  description: "Simple Community Engagement using Web3 Platform",
   openGraph: {
     images: ['https://bafkreiabag3ztnhe5pg7js4bj6sxuvkz3sdf76cjvcuqjoidvnfjz7vwrq.ipfs.dweb.link/']
   }

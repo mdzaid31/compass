@@ -76,15 +76,11 @@ const Header = () => {
     <div className="flex justify-between items-center bg-white p-4 sticky top-0 border-b z-30">
       <div className="flex gap-4 items-center">
         <Link href="/" className="flex gap-2 items-center">
-          <div className="text-black font-bold">
-            {" "}
-            BASEMINT : WHERE E-SPORTS LIVE
-          </div>
+          <div className="text-black font-bold"> Compass</div>
         </Link>
         <Link href="/twitch" className="flex gap-2 items-center">
           <Image src="/output.png" alt="Twitch Logo" width={48} height={48} />
         </Link>
-
 
         <Link href="/bet" className="flex gap-2 items-center">
           <Image src="/bet.png" alt="Betting Logo" width={48} height={48} />
