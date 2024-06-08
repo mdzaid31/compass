@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+ipykernel
+ipython
+werkzeug
+motor
